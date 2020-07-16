@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Mike Belov</title>
+    <link>https://belovm96.github.io/myportfolio/post/</link>
+    <description>Recent content in Projects on Mike Belov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://belovm96.github.io/myportfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Image Caption Generation with encoder-decoder neural nets</title>
+      <link>https://belovm96.github.io/myportfolio/post/chapter-1/</link>
+      <pubDate>Thu, 12 Dec 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://belovm96.github.io/myportfolio/post/chapter-1/</guid>
+      <description>In this group research project, I built a CNN+LSTM neural network and experimented with two variations of encoder-decoder models - Merge and Inject.
+Our models were trained on a 90,000 example subset of Google&amp;rsquo;s Conceptual Captions dataset on Google Cloud&amp;rsquo;s VM.
+Some of the models&amp;rsquo; metrics approach state-of-the-art results for the task of image captioning, reaching BLEU-4, METEOR and ROUGE-1 scores of 0.13, 0.14 and 0.2, respectively.
+Check out this project&amp;rsquo;s github repository with a complete project report here.</description>
+    </item>
+    
+    <item>
+      <title>Spam Detection with Machine Learning</title>
+      <link>https://belovm96.github.io/myportfolio/post/chapter-2/</link>
+      <pubDate>Thu, 25 Jul 2019 11:00:59 -0400</pubDate>
+      
+      <guid>https://belovm96.github.io/myportfolio/post/chapter-2/</guid>
+      <description>This time I wanted to explore Enron1 dataset containing spam and non-spam emails and do some Machine Learning modeling for spam detection.
+Overall, most of the trained models achieved impressive classification results detecting spam &amp;gt;90% of the time with Support Vector Machine being the most optimal model out of the four built on this dataset.
+Please click here to take a look at some of the visualizations from my EDA &amp;amp; classifiers&amp;rsquo; performance metrics analysis.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning for Music Genre Recognition</title>
+      <link>https://belovm96.github.io/myportfolio/post/chapter-3/</link>
+      <pubDate>Thu, 09 May 2019 11:13:32 -0400</pubDate>
+      
+      <guid>https://belovm96.github.io/myportfolio/post/chapter-3/</guid>
+      <description>Being a bit of a music nerd, I decided to tackle the problem of music genre recognition using deep learning.
+The key idea was to train a Convolutional Neural Network model on the visual representations of the audio signal (e.g. spectrograms) extracted from the tracks in GTZAN &amp;amp; FMA datasets.
+I was able to achieve 70% accuracy classifying 10 music genres on a relatively small dataset, which was exciting and definitely worth the effort.</description>
+    </item>
+    
+  </channel>
+</rss>
